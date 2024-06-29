@@ -16,7 +16,9 @@
 html {
   scroll-behavior: smooth;
 }
-
+.test{
+  height: 100vh;
+}
 /*navbar styling*/
 
 nav {
