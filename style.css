@@ -185,10 +185,16 @@ form div span {
   font-weight: bold;
   text-align: center;
 }
+.cc1:active{
+  transform: scale(1.05); 
+   box-shadow: rgba(0, 0, 0, 0.479) 0px 4px 12px;
+}
+
 .cc1 {
   box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+   transition: transform .4s;
 }
-.card {
+.card{
   text-align: center;
   justify-content: center;
   width: 90%;
