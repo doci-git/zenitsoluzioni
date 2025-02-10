@@ -54,6 +54,7 @@ nav {
   font-optical-sizing: auto;
   font-weight: 900;
   font-style: normal;
+  letter-spacing: 2px;
 }
 
 .navbar .max-width span {
