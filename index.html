@@ -241,6 +241,30 @@
                     </div>
                 </div>
             </div>
+            <br>
+             <h4>-Altri esempi dei nostri progetti completati con successo li potete trovare sui social-</h4>
+        </div>
+
+                    <!-- Scrollable Works Gallery -->
+            <div class="scroll-gallery" aria-label="Galleria lavori scorrevole">
+                <button class="sg-btn prev" type="button" aria-label="Precedente">&#10094;</button>
+                <div class="sg-track" id="worksTrack" tabindex="0">
+                    <img src="./galery/foto1.jpg" alt="Lavoro 1" loading="lazy">
+                    <img src="./galery/foto2.jpg" alt="Lavoro 2" loading="lazy">
+                    <img src="./galery/foto3.jpg" alt="Lavoro 3" loading="lazy">
+                    <img src="./galery/foto4.jpg" alt="Lavoro 4" loading="lazy">
+                    <img src="./galery/foto5.jpg" alt="Lavoro 5" loading="lazy">
+                    <img src="./galery/foto6.jpg" alt="Lavoro 6" loading="lazy">
+                    <img src="./galery/foto7.jpg" alt="Lavoro 7" loading="lazy">
+                    <img src="./galery/foto8.jpg" alt="Lavoro 8" loading="lazy">
+                    <img src="./galery/foto9.jpeg" alt="Lavoro 9" loading="lazy">
+                    <img src="./galery/foto10.jpeg" alt="Lavoro 10" loading="lazy">
+                    <img src="./galery/foto11.jpeg" alt="Lavoro 11" loading="lazy">
+                    <img src="./galery/foto13.jpeg" alt="Lavoro 12" loading="lazy">
+                    <img src="./galery/foto14.jpeg" alt="Lavoro 13" loading="lazy">
+                </div>
+                <button class="sg-btn next" type="button" aria-label="Successivo">&#10095;</button>
+            </div>
         </div>
     </section>
 
@@ -290,7 +314,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="contact-form">
+                <div class="contact-form" style="display: none;">
                     <form id="contactForm">
                         <div class="form-group">
                             <label for="name">Nome e Cognome</label>
@@ -374,6 +398,17 @@
             </div>
         </div>
     </footer>
+
+    <!-- Lightbox for gallery images -->
+    <div class="lightbox" id="lightbox" aria-hidden="true" role="dialog">
+        <div class="lightbox-content" role="document">
+            <button class="lightbox-close" type="button" aria-label="Chiudi">&times;</button>
+            <button class="lightbox-nav lightbox-prev" type="button" aria-label="Precedente">&#10094;</button>
+            <img src="" alt="" id="lightboxImage">
+            <button class="lightbox-nav lightbox-next" type="button" aria-label="Successivo">&#10095;</button>
+        </div>
+    </div>
+
 <script src="script.js"></script>
 </body>
 </html>
