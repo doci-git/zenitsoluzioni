@@ -263,7 +263,8 @@ header {
 }
 
 .service-icon {
-  background-color: var(--primary);
+  background: #E47E01;
+background: linear-gradient(180deg, rgba(228, 126, 1, 1) 0%, rgba(253, 187, 45, 1) 100%);
   color: var(--white);
   font-size: 2.5rem;
   padding: 25px;
